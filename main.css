@@ -1,0 +1,125 @@
+body{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.heading{
+    padding: 0px;
+    margin: 0px;
+    background: url("BG.jpg");
+    background-size: 1550px 750px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:#171D26;
+  }
+
+  li {
+    float: right;
+    align-items: center;
+    margin: 16px;
+  }
+
+  li a {
+    display: block;
+    color: wheat;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+  }
+
+  li a:hover {
+  color: #F5A94E; 
+  }
+
+  ul img {
+      margin-left: 50px;
+      margin-top: 3px;
+  }
+
+  .heading ul{
+      position:sticky;
+      top: 0;
+  }
+.text{
+    font-size: 60px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 180px;
+    margin-bottom: 280px;
+    margin-left: 50px;
+}
+.text2 {
+    color: #F5A94E;
+}
+.text a{
+    text-decoration: none;
+    color:#171D26;
+    font-size: 25px; 
+    font-weight: 600; 
+}
+
+.text a:hover{
+    color:#502f07;
+}
+
+.text3{
+    color: #171D26;
+    font-size: 36px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.text4{
+    color: #171D26;
+    font-size: 36px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+.icons figure{
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+.icons figure figcaption{
+    color:#171D26;
+}
+
+footer{
+    font-family: sans-serif;
+    color: #171D26;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color:#F5A94E;
+    padding-top: 10px;
+    padding-bottom:10px ;
+
+}
